@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Square extends ShapeAbs {
+public class Square extends ShapeAbs implements IShape {
     private String symbole = "*";
 
     public Square(int height) {

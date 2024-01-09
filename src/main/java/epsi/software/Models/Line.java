@@ -9,13 +9,12 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Line extends ShapeAbs {
+public class Line extends ShapeAbs implements IShape {
 
     private String symbole = "*";
 
     public Line(int height) {
         super(height);
-
     }
 
     public Line(int height, String symbole) {

@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Pyramid extends ShapeAbs {
+public class Pyramid extends ShapeAbs implements IShape {
 
 
     private String symbole = "*";
