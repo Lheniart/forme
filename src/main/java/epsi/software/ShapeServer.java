@@ -9,6 +9,7 @@ public class ShapeServer {
         for (IShape f : formes){
             f.display();
             System.out.println();
+
         }
 
     }
