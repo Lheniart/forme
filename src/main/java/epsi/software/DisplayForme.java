@@ -31,7 +31,6 @@ public class DisplayForme {
         formes.add(line_5);
         formes.add(line_8);
         formes.add(square);
-        ShapeServer shapeServer = new ShapeServer();
-        shapeServer.dipslayShapeList(formes);
+        ShapeServer.dipslayShapeList(formes);
     }
 }
